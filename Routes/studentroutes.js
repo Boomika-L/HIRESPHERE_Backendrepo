@@ -7,7 +7,9 @@ const {
   getStudentDashboard,
 } = require("../Controller/StudentController"); 
 
-
+router.get("/", (req, res) => {
+  res.send("Student API working ✅");
+});
 router.post("/register", registerStudent);
 
 router.post("/login", loginStudent);
