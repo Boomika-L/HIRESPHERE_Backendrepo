@@ -13,7 +13,7 @@ console.log("JWT_SECRET:", process.env.JWT_SECRET);
 
 const studentRoutes = require("./Routes/studentroutes");
 const adminRoutes = require("./Routes/adminroutes");
-const companyRoutes = require("./Routes/companyRoutes");
+const companyRoutes = require("./Routes/companyroutes");
 
 const app = express();
 app.use(cors());
